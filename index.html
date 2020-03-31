@@ -7,10 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- import the webpage's stylesheet -->
+<<<<<<< HEAD
     <link rel="stylesheet" href="skeleton.css"
+=======
+    <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="skeleton.css" />
+    <link rel="stylesheet" href="wpdash-style.css" />
+>>>>>>> Import skeleton CSS stylesheet Fixes Bug #1
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css" />
-    <link rel="stylesheet" href="wpdash-style.css" />
+    <link rel='stylesheet' id='jquery-ui-smoothness-css'  href='https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css?ver=5.3.2' type='text/css' media='all' />
     <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
@@ -18,18 +24,17 @@
       crossorigin=""
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" />
-    <!-- Make sure you put this AFTER Leaflet's CSS -->
-    <!--
-            wp_enqueue_style('leaflet-search', plugin_dir_url(__FILE__).'bower_components/leaflet-search/dist/leaflet-search.min.css');
-            wp_enqueue_style('wpdash-style',  plugin_dir_url(__FILE__).'css/wpdash-style.css'); -->
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet-src.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.8/dist/leaflet-search.src.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-search-control@2.1.2/src/Leaflet.search.min.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-migrate@1.4.1/dist/jquery-migrate.min.js" integrity="sha256-SOuLUArmo4YXtXONKz+uxIGSKneCJG4x0nVcA0pFzV0=" crossorigin="anonymous"></script>
+    <script type='text/javascript' src='https://code.jquery.com/ui/1.11.4/jquery-ui.js?ver=5.3.2'></script>
+
     <script src="https://www.gstatic.com/charts/loader.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@2.1.6/dist/loadingoverlay.min.js"></script>
     <script src="plugin-js/google-charts.js"></script>
