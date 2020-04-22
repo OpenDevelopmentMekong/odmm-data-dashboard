@@ -12,3 +12,6 @@ The parliament arch-shaped parliament diagrams for Amyotha Hluttaw (Upper House)
 
 ## Preview
 You can preview this dashboard [here](https://opendevelopmentmekong.github.io/odmm-data-dashboard/).
+
+## Authors
+Pyrou Chung
