@@ -1,44 +1,43 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
   <title>Myanmar Data Dashboard</title>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
   <!-- import the webpage's stylesheet -->
   <link rel="stylesheet" href="base.css" />
-  <link rel="stylesheet" href="skeleton.css" />
+  <!-- <link rel="stylesheet" href="skeleton.css" /> -->
   <!-- <link rel="stylesheet" href="wpdash-style.css" /> -->
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css" />
   <link rel='stylesheet' id='jquery-ui-smoothness-css' href='https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css?ver=5.3.2' type='text/css' media='all' />
+  <link rel='stylesheet' id='cartodb-css'  href='https://opendevelopmentmyanmar.net/wp-content/themes/jeo/lib/cartodb.css?ver=5.3.2' type='text/css' media='all' /> 
+  <link rel='stylesheet' id='leaflet-search-css'  href='https://opendevelopmentmyanmar.net/wp-content/plugins/wp-odm_dash/bower_components/leaflet-search/dist/leaflet-search.min.css?ver=5.3.2' type='text/css' media='all' /> 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" />
+ <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" /> 
+  <link rel='stylesheet' id='leaflet-markerclusterer-css'  href='https://opendevelopmentmyanmar.net/wp-content/themes/jeo/lib/leaflet/MarkerCluster.Default.css?ver=0.2' type='text/css' media='all' />
   <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet-src.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.8/dist/leaflet-search.src.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/leaflet-search-control@2.1.2/src/Leaflet.search.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/leaflet-search-control@2.1.2/src/Leaflet.search.min.js"></script> -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery-migrate@1.4.1/dist/jquery-migrate.min.js" integrity="sha256-SOuLUArmo4YXtXONKz+uxIGSKneCJG4x0nVcA0pFzV0=" crossorigin="anonymous"></script>
-  <script type='text/javascript' src='https://code.jquery.com/ui/1.11.4/jquery-ui.js?ver=5.3.2'></script>
-
+  <script src='https://code.jquery.com/ui/1.11.4/jquery-ui.js?ver=5.3.2'></script>
+  <script src='https://opendevelopmentmyanmar.net/wp-content/themes/jeo/lib/cartodb.js?ver=3.15.10'></script> 
   <script src="https://www.gstatic.com/charts/loader.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@2.1.6/dist/loadingoverlay.min.js"></script>
   <script src="plugin-js/google-charts.js"></script>
   <script src="plugin-js/chart-class.js"></script>
   <script src="plugin-js/util.js"></script>
-
+<!-- import local charting scripts -->
   <script src="my-overview/chart-config.js"></script>
   <script src="my-overview/chartClass.js"></script>
   <script src="my-overview/custom_charts.js"></script>
   <script src="my-overview/util.js"></script>
   <script src="my-overview/app.js"></script>
 </head>
-
 <body>
   <article>
-
     <section class="container">
       <div class="row">
         <div class="sixteen columns">
@@ -46,14 +45,12 @@
         </div>
       </div>
     </section>
-
     <section class="container">
       <div class="row">
         <div class="sixteen columns">
         </div>
       </div>
     </section>
-
     <section id="content" class="single-post">
       <div id="region_name_wrapper">
         <div class="container">
@@ -62,10 +59,9 @@
               <h1 id="region_name" class="region_name_container">Myanmar</h1>
             </div>
             <div class="ten columns">
-
               <div id="dash_search_box" style="position: relative;">
                 <div class="leaflet-control-search search-exp"><label class="search-input" for="searchtext9" style="display: none;"></label><input class="search-input" type="text" size="9" autocomplete="off" placeholder="Search for Township..."
-                    style="display: block;" id="searchtext9">
+                    style="display: block;" id="searchtext9"> 
                   <ul class="search-tooltip" style="display: none;"></ul><a class="search-cancel" href="#" title="Cancel" style="display: none;"><span>⊗</span></a><a class="search-button" href="#" title="Search..."></a>
                   <div class="search-alert" style="display: none;"></div>
                 </div>
@@ -76,8 +72,7 @@
             </div>
           </div>
         </div>
-      </div>
-
+      </div> 
       <section id="content" class="container single-post">
         <div class="row">
           <div class="pcode_container">
@@ -235,6 +230,9 @@
           <div class="row chart_wrapper union_chart only_union">
             <div class="row chart_wrapper">
               <div class="eight columns">
+                <div class="flourish-embed flourish-parliament" data-src="visualisation/2035791" data-url="https://flo.uri.sh/visualisation/2035791/embed"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                <div class="flourish-embed flourish-parliament" data-src="visualisation/2035589" data-url="https://flo.uri.sh/visualisation/2035589/embed"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+              <!-- Comment  
                 <h3>
                   Amyotha Hluttaw (Upper House), 2015 Election (Breakdown by seat)
                 </h3>
@@ -367,7 +365,7 @@
               <a href="https://myanmar.opendevelopmentmekong.net/dataset/?id=ministers-in-myanmar" target="_blank">Myanmar president office website, Open Myanmar Initiative</a>
             </div>
           </div>
-
+          // -->
           <div class="row chart_wrapper ts_chart">
             <div id="election_lower_2015"></div>
             <div id="election_lower_2012"></div>
@@ -560,5 +558,4 @@
     </section>
   </article>
 </body>
-
 </html>
