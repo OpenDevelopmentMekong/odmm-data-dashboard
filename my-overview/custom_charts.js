@@ -269,7 +269,8 @@ var MinisterList = {
 
         var minister_info = '<div class="ministry_val">'+ minsitry_name +'</div>' +
                             '<div class="minister_name" style="font-weight:bold;">'+ minister_name +'</div>' + 
-                            '<div class="minister_pos">'+ value.position +'</div>'; 
+                            '<div class="minister_pos">'+ value.position +'</div>' +
+                            '<div class="minister_gender">'+ value.gender +'</div>'; 
 
         var minister_item = jQuery('<li>')
                 .addClass('four columns')
