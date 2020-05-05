@@ -18,7 +18,7 @@ var data_resources = {
     // https://data.opendevelopmentmyanmar.net/api/3/action/datastore_search?resource_id=72f86e64-c434-4217-b002-bf439367b34d
     //https://data.opendevelopmentmyanmar.net/dataset/list-of-union-ministers?type=dataset
     //https://data.opendevelopmentmyanmar.net/api/3/action/datastore_search?resource_id=e2c703d1-54a9-4070-b739-7b1c9e601ac1
-    // id: "62d176c9-be30-4296-bfd0-cdf1c5c9968e",
+     id: "62d176c9-be30-4296-bfd0-cdf1c5c9968e",
     // https://data.opendevelopmentmyanmar.net/dataset/ministers-in-myanmar/resource/62d176c9-be30-4296-bfd0-cdf1c5c9968e
   },
 };
