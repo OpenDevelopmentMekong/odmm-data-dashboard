@@ -3,8 +3,8 @@ var data_resources = {
     "https://data.opendevelopmentmekong.net/api/action/datastore_search",
   api_key: "", //Li Jia Li's API Key
   maps: {
-    states_regions: "images/states_regions.topojson",
-    township: "images/township.topojson",
+    states_regions: "images/states_regions-v2.topojson",
+    township: "images/township-v2.topojson",
   },
   state_region_pop_age_gp: {
     id: "1da6917a-fdfc-4e61-a581-99f713f36394",
