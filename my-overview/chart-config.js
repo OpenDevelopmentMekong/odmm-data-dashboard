@@ -805,13 +805,19 @@ var charts = {
 var chartconfig = {
   st_health_education: {
     resource: {
-      id: "bc5b9344-10de-45eb-8e15-af4aa33c1255",
+      // Datasets changed Refer: https://github.com/OpenDevelopmentMekong/IssuesManagement/issues/558
+      // https://data.opendevelopmentmekong.net/dataset/2f4131fa-04f3-4c25-a471-b8ebf53d92d3/resource/27a9753e-8453-4097-bec3-6e4929134e61/download/demo-health-edu-datamimu-bl.csv
+      //id: "bc5b9344-10de-45eb-8e15-af4aa33c1255",
+      id:"27a9753e-8453-4097-bec3-6e4929134e61",
       singlerow: true,
-      download_link:
-        "https://data.opendevelopmentmekong.net/dataset/1b8b8832-0b56-4a93-8d6e-4293edff2ad5/resource/bc5b9344-10de-45eb-8e15-af4aa33c1255/download/Demo-Health-Edu-MIMUBLUnionStateRegion.csv",
-      resource_link:
-        "https://data.opendevelopmentmekong.net/dataset/1b8b8832-0b56-4a93-8d6e-4293edff2ad5/resource/bc5b9344-10de-45eb-8e15-af4aa33c1255",
-      dataset_id: "1b8b8832-0b56-4a93-8d6e-4293edff2ad5",
+      //download_link:
+       // "https://data.opendevelopmentmekong.net/dataset/1b8b8832-0b56-4a93-8d6e-4293edff2ad5/resource/bc5b9344-10de-45eb-8e15-af4aa33c1255/download/Demo-Health-Edu-MIMUBLUnionStateRegion.csv",
+      download_link: "https://data.opendevelopmentmekong.net/dataset/2f4131fa-04f3-4c25-a471-b8ebf53d92d3/resource/27a9753e-8453-4097-bec3-6e4929134e61/download/demo-health-edu-datamimu-bl.csv",
+      // resource_link:
+      //  "https://data.opendevelopmentmekong.net/dataset/1b8b8832-0b56-4a93-8d6e-4293edff2ad5/resource/bc5b9344-10de-45eb-8e15-af4aa33c1255",
+      download_link: "https://data.opendevelopmentmekong.net/dataset/2f4131fa-04f3-4c25-a471-b8ebf53d92d3/resource/27a9753e-8453-4097-bec3-6e4929134e61",
+      //dataset_id: "1b8b8832-0b56-4a93-8d6e-4293edff2ad5",
+      dataset_id: "2f4131fa-04f3-4c25-a471-b8ebf53d92d3",
       filename: "Demo-Health-Edu-MIMUBLUnionStateRegion.csv",
       resource_title: "MIMU baseline data",
       filters: {
